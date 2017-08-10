@@ -2,10 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script src="/script/app.js" charset="utf-8"></script>
+    <script src="vendors/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="vendors/angular.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-materialize.min.js" charset="utf-8"></script>
+    <script src="vendors/materialize.min.js" charset="utf-8"></script>
+
+    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+    <script src="script/app.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="/vendors/materialize.min.css">
+    <link rel="stylesheet" href="/styles/main.min.css">
     <title>Parker Walker</title>
   </head>
-  <body>
-    <h1>hello</h1>
+  <body ng-app='app'>
+    <div ng-controller='MainController as mc' class="">
+      <h1>hello</h1>
+      <div class="">
+        <a href="https://www.linkedin.com/in/parkerleewalker/">Linkedin</a>
+        <a href="https://leagueofledgers.herokuapp.com/">Solo Project</a>
+        <a href="https://github.com/parkerwalker">Github</a>
+
+      </div>
+
+      <main ng-view></main ng-view>
+    </div>
+
   </body>
 </html>

@@ -4,8 +4,10 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "angular-materialize": "^0.2.2",
     "body-parser": "^1.17.2",
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "materialize": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
