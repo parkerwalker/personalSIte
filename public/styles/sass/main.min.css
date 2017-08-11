@@ -1,1 +1,1 @@
-.btn{background-color:#424242 !important}
+.btn{background-color:#424242 !important}.container{height:100vh;width:100vw;display:grid;grid-template-columns:10% 10% auto 15% 10%;grid-template-rows:15vh 20vh  auto}.link{grid-column-start:2;grid-column-end:span col4-start;grid-row-start:1;grid-row-end:span 2}.profile{max-height:60vh;max-width:inherit;grid-column-start:2;grid-column-end:4;grid-row-start:row1-start;grid-row-end:3}.name{grid-column-start:2;grid-column-end:4;grid-row-start:2}.about{grid-column-start:4;grid-column-end:4;grid-row-start:3}

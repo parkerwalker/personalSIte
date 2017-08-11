@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <script src="vendors/jquery-3.2.1.min.js" charset="utf-8"></script>
-    <script src="vendors/angular.min.js" charset="utf-8"></script>
-    <script src="vendors/angular-materialize.min.js" charset="utf-8"></script>
-    <script src="vendors/materialize.min.js" charset="utf-8"></script>
+<head>
+  <meta charset="utf-8">
+  <script src="vendors/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="vendors/angular.min.js" charset="utf-8"></script>
 
-    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
-    <script src="script/app.js" charset="utf-8"></script>
+  <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+  <script src="script/app.js" charset="utf-8"></script>
 
-    <link rel="stylesheet" href="/vendors/materialize.min.css">
-    <link rel="stylesheet" href="/styles/sass/main.min.css">
-    <title>Parker Walker</title>
-  </head>
-  <body ng-app='app'>
-    <div ng-controller='MainController as mc' class="">
-      <h1>hello</h1>
-      <div class="row">
-        <div class="col s12">
-          <ul tabs reload="allTabContentLoaded">
-            <li class="tab col s4"><button class='btn' type="button" name="button"><a href="https://www.linkedin.com/in/parkerleewalker/">Linkedin</a></button></li>
-            <li class="tab col s4"><button class='btn' type="button" name="button"><a href="https://leagueofledgers.herokuapp.com/">Solo Project</a></button></li>
-            <li class="tab col s4"><button class='btn' type="button" name="button"><a href="https://github.com/parkerwalker"></a></button></li>
-          </ul>
-      </div>
-      </div>
+  <link rel="stylesheet" href="/styles/sass/main.min.css">
+  <title>Parker Walker</title>
+</head>
+<body ng-app='app'>
+  <div ng-controller='MainController as mc' class="container">
+    <img class='profile' src="/images/Parker Walker.jpg" alt="">
 
-      <main ng-view></main ng-view>
+    <div class='link'>
+      <button class='btn' type="button" name="button"><a href="https://www.linkedin.com/in/parkerleewalker/"></a>Linkedin</button>
+      <button class='btn' type="button" name="button"><a href="https://github.com/parkerwalker"></a>Github</button>
+      <button class='btn' type="button" name="button"><a href="https://www.instagram.com/parkerleewalker/"></a>Instagram</button>
+    </div>
+    <p class='name'>Hi I'm Parker Walker</p>
+    <p class='about'>This is one sentence about me</p>
+
+    <!-- <main ng-view></main ng-view> -->
     </div>
 
   </body>
-</html>
+  </html>
