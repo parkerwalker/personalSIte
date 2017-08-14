@@ -3,25 +3,40 @@
   width: 100vw;
   display: grid;
   grid-template-columns: 10% 10% auto 15% 10%;
-  grid-template-rows: 15vh 20vh  auto;
+  grid-template-rows: 15vh 10vh 20vh  auto;
 }
 
 .navBar {
   width: 100vw;
-  height: auto;
-  background: grey;
+  // height: auto;
+  background: $navColor;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row-end: span 2;
 }
 
 .link {
   grid-column-start: 2;
-  grid-column-end: span col4-start;
-  grid-row-start: 1;
-  grid-row-end: 1;
-   
+  grid-column-end: span 4;
+  grid-row-start: 2;
+
+}
+
+.text {
+  font-family: $font;
+}
+
+.about {
+  grid-column: 3 / span 4;
+  grid-row: 3 / span 5;
+  font-size: 150%;
+}
+
+.name {
+  grid-column-start: 2;
+  grid-row: 3 / 3;
+  font-size: 200%;
 }
 
 //profile picture
@@ -30,8 +45,8 @@
   max-width: inherit;
   grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: row1-start;
-  grid-row-end: 3;
+  grid-row-start: 3;
+  grid-row-end: span 5;
 }
 
 .name{

@@ -1,16 +1,31 @@
 .btn {
-  -webkit-border-radius: 1;
-  -moz-border-radius: 1;
+  // -webkit-border-radius: 1;
+  // -moz-border-radius: 1;
   border-radius: 1px;
-  font-family: Arial;
-  color: #ffffff;
+  font-family: $font;
+  color: black;
   font-size: 13px;
   padding: 6px;
-  background: #3498db;
-  text-decoration: none;
+  background: #bbf0f7;
+  margin: 0 !important;
 }
 
 .btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+button{
+  border-radius: 1px;
+    color: black;
+    background: #bbf0f7;
+    text-decoration: none;
+    font-family: $font;
+    font-size: 13px;
+    padding: 6px;
+}
+
+button:hover {
   background: #3cb0fd;
   text-decoration: none;
 }
