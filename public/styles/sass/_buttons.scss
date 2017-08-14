@@ -1,28 +1,29 @@
-.btn {
-  // -webkit-border-radius: 1;
-  // -moz-border-radius: 1;
-  border-radius: 1px;
-  font-family: $font;
-  color: black;
-  font-size: 13px;
-  padding: 6px;
-  background: #bbf0f7;
-  margin: 0 !important;
-}
+// .btn {
+//   // -webkit-border-radius: 1;
+//   // -moz-border-radius: 1;
+//   border-radius: 1px;
+//   font-family: $font;
+//   color: black;
+//   font-size: 13px;
+//   padding: 6px;
+//   background: #bbf0f7;
+//   margin: 0 !important;
+// }
 
-.btn:hover {
-  background: #3cb0fd;
-  text-decoration: none;
-}
+// .btn:hover {
+//   background: #3cb0fd;
+//   text-decoration: none;
+// }
 
 button{
   border-radius: 1px;
     color: black;
     background: #bbf0f7;
     text-decoration: none;
-    font-family: $font;
+    font-family: Helvetica;
     font-size: 13px;
     padding: 6px;
+    margin: 0 !important;
 }
 
 button:hover {
