@@ -60,3 +60,16 @@
   grid-column-end: 5;
   grid-row-start:  3;
 }
+
+.footer {
+  font-family: $font;
+  position: fixed;
+  bottom: 3rem;
+  left: 5rem;
+  grid-column: 2/ span 4;
+  grid-row: 4 / 4;
+}
+
+i {
+  font-size: 4rem;
+}
