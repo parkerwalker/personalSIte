@@ -7,20 +7,14 @@
 }
 
 .navBar {
-  // width: 100vw;
-  // height: auto;
   background: $navColor;
   grid-column: 1 / span 5;
-  // grid-column-end: 1;
   grid-row: 1;
-  // grid-row-end: span 2;
 }
 
 .link {
   grid-column: 2 / span 3;
-  // grid-column-end: span 4;
   grid-row: 1/ 2;
-  // padding-top:
 }
 
 .text {
@@ -33,27 +27,25 @@
   font-size: 150%;
 }
 
-.name {
-  grid-column: 2 / 2;
-  grid-row: 3 / 3;
-  font-size: 200%;
-}
 
 //profile picture
 .profile {
   max-height: 60vh;
   max-width: inherit;
   grid-column: 2 / span 4;
-  // grid-column-end: 4;
   grid-row: 3 / span 4;
-  // grid-row-end: span 4;
 }
 
 .name{
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column: 2 / 4;
   grid-row-start: 2;
+  font-size: 200%;
 }
+
+// #name {
+//   font-family: $oswaldFont;
+//
+// }
 
 .about {
   grid-column-start:  4;
