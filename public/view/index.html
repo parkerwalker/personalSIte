@@ -9,6 +9,7 @@
   <script src="vendors/angular.min.js" charset="utf-8"></script>
 <!--end vendor-->
   <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+  <script src="script/icons.js" charset="utf-8"></script>
   <script src="script/app.js" charset="utf-8"></script>
 <!-- end script links -->
 <link href="https://fonts.googleapis.com/css?family=Oswald|Ubuntu" rel="stylesheet">
@@ -52,62 +53,12 @@
 
         <!-- <main ng-view></main ng-view> -->
         <div class="footer">
-          <div class="tooltip">
-            <span class='tooltiptext'>JavaScript</span>
-            <i class="devicon-javascript-plain"></i>
-          </div>
 
-          <div class="tooltip">
-            <span class='tooltiptext'>AngularJS</span>
-            <i class="devicon-angularjs-plain"></i>
+          <div ng-repeat='icons in mc.iconsArray' class="tooltip">
+            <span class='tooltiptext'>{{icons.text}}</span>
+            <i class={{icons.class}}></i>
           </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>JQuery</span>
-              <i class="devicon-jquery-plain"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>NodeJs</span>
-            <i class="devicon-nodejs-plain"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>MongoDB</span>
-            <i class="devicon-mongodb-plain"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>Html</span>
-            <i class="devicon-html5-plain-wordmark"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>Github</span>
-            <i class="devicon-github-plain colored"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>Heroku</span>
-            <i class="devicon-heroku-plain"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>PostgreSQL</span>
-            <i class="devicon-postgresql-plain"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>Sass</span>
-            <i class="devicon-sass-original"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>Css</span>
-            <i class="devicon-css3-plain-wordmark"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>Git</span>
-            <i class="devicon-git-plain"></i>
-          </div>
-          <div class="tooltip">
-            <span class='tooltiptext'>bootstrap</span>
-            <i class="devicon-bootstrap-plain"></i>
-          </div>
-
-
-
+          
         </div>
       </div>
 
