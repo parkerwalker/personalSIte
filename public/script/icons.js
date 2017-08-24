@@ -23,10 +23,10 @@ var icons = [
     text: 'Html',
     class: 'devicon-html5-plain-wordmark'
   },
-  github = {
-    text: 'Github',
-    class: 'devicon-github-plain colored'
-  },
+  // github = {
+  //   text: 'Github',
+  //   class: 'devicon-github-plain colored'
+  // },
   heroku = {
     text: 'Heroku',
     class: 'devicon-heroku-plain'
