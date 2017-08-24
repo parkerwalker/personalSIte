@@ -3,7 +3,7 @@
   width: 100vw;
   display: grid;
   grid-template-columns: 5vw 10vw auto 30vw 10vw;
-  grid-template-rows: 5vh 10vh 20vh  auto;
+  grid-template-rows: 5vh 10vh 60vh  auto;
 }
 
 .navBar {
@@ -22,18 +22,21 @@
 }
 
 .about {
-  grid-column: 3 / span  5 ;
-  grid-row: 3 / span 5;
+  grid-column: 4;
+  grid-row: 3;
   font-size: 150%;
+  text-align: center;
+  align-self: center;
 }
 
 
 //profile picture
 .profile {
-  max-height: 60vh;
+  //max-height: 60vh;
+  height: 100%;
   max-width: inherit;
   grid-column: 2 / span 4;
-  grid-row: 3 / span 4;
+  grid-row: 3 ;
 }
 
 .name{
@@ -46,9 +49,3 @@
 //   font-family: $oswaldFont;
 //
 // }
-
-.about {
-  grid-column-start:  4;
-  grid-column-end: 5;
-  grid-row:  3 / 4;
-}
