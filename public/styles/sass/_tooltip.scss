@@ -4,6 +4,9 @@
   display: flex;
   align-items: center;
   background-color: $navColor;
+  font-family: $font;
+  position: absolute;
+  bottom: 0;
 }
 
 i {
@@ -24,13 +27,14 @@ i {
     visibility: hidden;
     width: inherit;
     background-color: black;
-    color: $navColor;
+    color: $backGround;
     text-align: center;
     border-radius: 6px;
     padding: 3px;
-    margin-top: 3rem;
+    margin-bottom: 3rem;
     /* Position the tooltip */
     position: absolute;
+    top: -1.65rem;;
     z-index: 1;
 }
 
